@@ -43,6 +43,7 @@ body{
 
 a:visited{
   color:rgb(72, 128, 238) ;
+  text-decoration: none;
 }
 
 @media screen and (max-width: 767px){

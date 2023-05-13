@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import styles from './page.module.css'
-import classNames from 'classNames';
+import classNames from 'classnames';
 
 export default function Home() {
   return (
@@ -14,8 +14,8 @@ export default function Home() {
       <div className={styles.desc}>
       <h4 className='noto_sans'>Youlu 단축어 하나로<br/>유튜브, 트위터, 릴스, 커뮤니티 사이트의 영상을 다운로드할 수 있어요.<br/></h4>
       </div>
-
-    <div className={styles.download}><h3 className={styles.download_btn}>단축어 추가 (Beta)</h3></div>
+    <a href="https://www.icloud.com/shortcuts/"><div className={styles.download}><h3 className={styles.download_btn}>단축어 추가 (Beta)</h3></div>
+</a>
     </main>
   )
 }

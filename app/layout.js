@@ -24,7 +24,7 @@ export default function RootLayout({ children }) {
       <div className='main'>
         <div className='nav'>
           <div className='btn'><a href="/youlu"><span className="material-icons-round" style={{ fontSize: '25px',color:'rgb(72, 128, 238)'}}>home</span></a></div>
-          <div className='btn'><a href="/youlu"><span className="material-icons-round" style={{ fontSize: '25px',color:'rgb(72, 128, 238)'}}>login</span></a></div>
+          <div className='btn'><a href="/youlu/api"><span className="material-icons-round" style={{ fontSize: '25px',color:'rgb(72, 128, 238)'}}>login</span></a></div>
         </div>
       </div>
       {children}

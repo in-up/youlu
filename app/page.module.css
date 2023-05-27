@@ -33,7 +33,7 @@
   align-items: center;
   justify-content: center;
   margin-top: 30px;
-  text-decoration: inherit;
+  text-decoration: none;
 }
 
 .download:hover{
@@ -43,7 +43,7 @@
 .download_btn{
   color:white;
   font-size: large;
-  text-decoration: inherit;
+  text-decoration: none;
 }
 
 

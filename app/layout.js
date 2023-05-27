@@ -33,8 +33,8 @@ export default function RootLayout({ children }) {
       {children}
       <footer style={{width: '100vw', zIndex: '1', bottom:'0', position: 'fixed'}}>
                     <div className='footer'>
-                    <span className="material-icons-round" style={{ fontSize: '20px', marginRight:'15px'}}>ios_share</span>
-                    <div className='footer-disc'> 공유 시트를 열어 어디서든 다운로드할 수 있어요.</div>
+                    <span className="material-icons-round" style={{ fontSize: '20px', marginRight:'15px', marginLeft:'-8px'}}>ios_share</span>
+                    <div className='footer-desc'> 공유 시트를 열어 어디서든 다운로드할 수 있어요.</div>
                     </div> 
                 </footer>
     </html>

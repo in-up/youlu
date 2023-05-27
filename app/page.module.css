@@ -33,13 +33,19 @@
   align-items: center;
   justify-content: center;
   margin-top: 30px;
+  text-decoration: inherit;
+}
+
+.download:hover{
+  background-color: rgb(65, 114, 212);
 }
 
 .download_btn{
   color:white;
   font-size: large;
-  text-decoration: none;
+  text-decoration: inherit;
 }
+
 
 @media screen and (max-width: 767px){
   .center{width: 100%}
